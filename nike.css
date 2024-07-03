@@ -1,0 +1,54 @@
+.center {
+    text-align: center;
+  margin: 15px;  
+  font-size: 25px;
+
+  /* font-style: italic; */}
+div a {text-decoration: none;
+    font-size: 20px;
+color: rgb(0, 0, 0);
+flex-direction: column;
+justify-content: space-between;
+margin: 25px;
+}
+.life {
+    text-align: center;
+    font-size: 30px;
+    
+}
+.centr {
+    text-align: center;
+}
+/* .box {
+position: fixed;
+top: 0; left: 0;
+    background-color: white;
+    width: 100vw;
+    justify-content: space-evenly;
+} */
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+.search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.seaarch {
+    position: fixed;
+}
+.container {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+background-color: white;
+width: 100%;
+top: 0px;
+}
+.hehehe {
+    margin: 30px;
+    left: 0px;
+}
+

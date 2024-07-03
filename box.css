@@ -1,0 +1,12 @@
+.box {
+    color: gold;
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+.container {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
