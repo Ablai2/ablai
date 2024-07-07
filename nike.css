@@ -10,12 +10,19 @@ color: rgb(0, 0, 0);
 flex-direction: column;
 justify-content: space-between;
 margin: 25px;
+
 }
 .life {
     text-align: center;
     font-size: 30px;
-    
 }
+a:hover {
+    border-bottom: 2px solid black;
+}
+.l {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .centr {
     text-align: center;
 }
@@ -50,6 +57,7 @@ top: 0px;
 .hehehe {
     margin: 30px;
     left: 0px;
+    width: 100vw;
 }
 .align {
     text-align: center;
@@ -72,13 +80,37 @@ top: 0px;
      
 }
       
-.p{position: absolute;
+.p {position: absolute;
     bottom: 20px;
+  color: aliceblue;
+  left: 30px;
+ 
 }
-p{
-    color: aliceblue;
-}
+
 .zurg {
     width: 100vw;
-    height: 900px;
+    height: 50vw;
+}
+.a {
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+#wi {
+    width: 100vw;
+    height: 50vw;
+}
+ 
+.cont {
+    position: relative;
+}
+.c {
+    position: absolute;
+    bottom: 20px;
+color: aliceblue;
+left: 30px;
+}
+.aaaa {
+    background-color: aliceblue;
+    border-radius: 20px;
+   
 }
