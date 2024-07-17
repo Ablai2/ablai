@@ -1,0 +1,37 @@
+.top {
+    background-color: aqua;
+    height: 60px;
+    
+}
+.zuun {
+    background-color: blueviolet;
+    
+    flex: 1;
+    
+}
+.baruun {
+    background-color: blue;
+   
+    flex: 8;
+}
+.contt {
+    display: flex;
+    height: 100vw;
+}
+.useg {
+    display: flex;
+    justify-content: space-between;
+    
+}
+a {
+    background-color: brown;
+    height: 100px;
+    width: 90px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+.ss {
+    display: flex;
+    text-align: center;
+}

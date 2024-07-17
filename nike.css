@@ -99,25 +99,15 @@ top: 0px;
      position: relative;
      
 }
-      
-<<<<<<< HEAD
 .p{position: absolute;
     bottom: 140px;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    left: 10px;
-=======
-.p {position: absolute;
-    bottom: 20px;
-  color: aliceblue;
-  left: 30px;
- 
->>>>>>> 734c07b554272c38854f4c0b284aeed89130a2b7
+    left: 100px;
 }
 
 .zurg {
     width: 100vw;
-<<<<<<< HEAD
     height: 700px;
     margin: 10px;
 }
@@ -144,8 +134,8 @@ position: relative;
 }
 .h {
     position: absolute;
-    bottom: 20px;
-    left: 10px;
+    bottom: 140px;
+    left: 100px;
     color:wheat ;
 }
 #i {
@@ -183,6 +173,11 @@ position: relative;
     border-radius: 30px;
     margin: 1px;
     bottom: 10px;
+    left: 5px;
+}
+.kk {
+    
+    left: 15px;
 }
 .tt {
    
@@ -191,33 +186,27 @@ position: relative;
     
 }
 .cc {
+    
+    position: relative;
+}
+
+   .mm {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: aliceblue;
+   }
+   .ee {
     display: flex;
     position: relative;
-    
-=======
-    height: 50vw;
-}
-.a {
-  background-color: aliceblue;
-  border-radius: 20px;
-}
-#wi {
-    width: 100vw;
-    height: 50vw;
-}
- 
-.cont {
-    position: relative;
-}
-.c {
-    position: absolute;
-    bottom: 20px;
-color: aliceblue;
-left: 30px;
-}
-.aaaa {
-    background-color: aliceblue;
-    border-radius: 20px;
->>>>>>> 734c07b554272c38854f4c0b284aeed89130a2b7
+   }
+
+
+
+
+
+
+
+
+
    
-}
