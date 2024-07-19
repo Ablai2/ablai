@@ -1,22 +1,24 @@
 .top {
-    background-color: aqua;
+    background-color: wheat;
     height: 60px;
     
 }
 .zuun {
     background-color: blueviolet;
-    
-    flex: 1;
+   
+  flex: 1;
+
     
 }
 .baruun {
-    background-color: blue;
-   
-    flex: 8;
+  flex: 6;
+    background-color: bisque;
+  
+    
 }
 .contt {
     display: flex;
-    height: 100vw;
+    height: 95vw;
 }
 .useg {
     display: flex;
@@ -26,7 +28,7 @@
 a {
     background-color: brown;
     height: 100px;
-    width: 90px;
+    width: 150px;
     text-decoration: none;
     font-size: 25px;
     color: aliceblue;
@@ -34,4 +36,33 @@ a {
 .ss {
     display: flex;
     text-align: center;
+}
+
+.gr {
+    background-color: gray;
+    height: 3vw;
+}
+.bl {
+    background-color: aqua;
+    height: 97vw;
+}
+
+.box1 {
+    background-color: yellow;
+   display: flex;
+   justify-content: space-around;
+}
+
+.box {
+    height: 200px;
+    width: 280px;
+    background-color: black;
+    margin: 10px;
+}
+
+.boo {
+    height: 100px;
+    width: 220px;
+background-color: aliceblue;
+left: 20px;
 }
