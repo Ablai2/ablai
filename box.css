@@ -1,9 +1,28 @@
-<<<<<<< HEAD
-.tee {
-    text-align: center;
+.heh {
+  position: relative;
+   display: flex;
 }
-=======
-.white {
-    color: rgb(184, 46, 36);
+
+.rall {
+    position: relative;
+   
 }
->>>>>>> 734c07b554272c38854f4c0b284aeed89130a2b7
+.seb {
+    position: absolute;
+   bottom: 10px;
+    left: 40px;
+}
+ 
+.p {
+    position: relative;
+    
+}
+
+.h {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+.huu {
+    display: flex;
+}

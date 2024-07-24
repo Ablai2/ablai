@@ -10,21 +10,29 @@ body {
     
     
 }
-
-
-
 .top {
     background-color: wheat;
     height: 60px;
     
 }
 .zuun {
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
    
   flex: 1;
-
+width: 100px;
     
 }
+.useg a{background-color: wheat;}
+.h{
+    height: 50px;
+
+}
+
+
+
+
+
+
 .baruun {
   flex: 6;
     background-color: bisque;
@@ -37,16 +45,18 @@ body {
 }
 .useg {
     display: flex;
-    justify-content: space-between;
+  align-items: center;
+  height: 60px;
     
 }
+h1{
+    margin: 0;
+}
 a {
-    background-color: brown;
-    height: 100px;
+    background-color: rgb(255, 255, 255);
     width: 150px;
     text-decoration: none;
-    font-size: 25px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 .ss {
     display: flex;
@@ -55,10 +65,11 @@ a {
 
 .gr {
     background-color: gray;
+    height: 20px;
     height: 3vw;
 }
 .bl {
-    background-color: aqua;
+    background-color: rgb(10, 213, 228);
     height: 97vw;
 }
 
@@ -92,4 +103,25 @@ top: 20px;
     bottom: 10px;
     left: 30px;
     background-color: blue;
+    display: flex;
+}
+.bb {
+    background-color: azure;
+    margin: 3px;
+    height: 30px;
+    left: 10px;
+}
+.xx {
+    background-color: aqua;
+    margin: 3px;
+    height: 30px;
+    width: 190px;
+}
+
+.you {
+    height: 20px;
+    width: 10px;
+}
+.flex {
+  display: flex;
 }
