@@ -8,11 +8,17 @@ body {
     
     }
     
-    
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
 }
 .top {
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     height: 60px;
+   display: flex;
+   justify-content: space-between;
     
 }
 .zuun {
@@ -22,16 +28,48 @@ body {
 width: 100px;
     
 }
-.useg a{background-color: wheat;}
+.useg a{background-color: rgb(255, 255, 255);}
 .h{
     height: 50px;
-
+}
+#nah {
+    font-family: r;
 }
 
+.usee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#use {
+    height: 30px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid;
+} 
 
+.usg a {
+    background-color: rgb(255, 255, 255);
+     
+}
+.usg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
-
+.he {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    width: 90px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 15px;
+}
 
 .baruun {
   flex: 6;
@@ -64,13 +102,29 @@ a {
 }
 
 .gr {
-    background-color: gray;
-    height: 20px;
-    height: 3vw;
+    background-color: rgb(255, 255, 255);
+    
+    height: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.no {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ko {
+
+    border-radius: 6px;
+    background-color: beige;
+    text-align: center;
+}
+
 .bl {
     background-color: rgb(10, 213, 228);
-    height: 97vw;
+    height: 96vw;
 }
 
 .box1 {
