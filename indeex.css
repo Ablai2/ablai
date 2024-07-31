@@ -14,17 +14,17 @@ body {
     background-color: rgb(255, 255, 255);
     height: 60px;
    display: flex;
-   
+   width: 100vw;
    justify-content: space-between;
-   posi
-    
+   position: fixed;
+    top: 0;
 }
 .zuun {
     background-color: rgb(255, 255, 255);
     font-family: "Roboto", sans-serif;
   
   flex: 1;
-width: 100px;
+width: 30px;
     
 }
 .useg a{background-color: rgb(255, 255, 255);}
@@ -54,11 +54,18 @@ width: 100px;
     height: 40px;
     width: 600px;
     background-color: rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
+    
     border: 1px solid;
+    color: #606060;
 } 
 
+.flex:hover {
+    background-color: whitesmoke;
+}
 
+#sign {
+    width: 205px;
+}
 .search {
     height: 40px;
     width: 80px;
@@ -95,7 +102,7 @@ width: 100px;
 }
 
 .baruun {
-  flex: 6;
+  flex: 8;
     background-color: bisque;
   display: ;
     
@@ -126,7 +133,7 @@ a {
 
 .gr {
     background-color: rgb(131, 130, 130);
-    
+    margin-top: 52px;
     height: 4vw;
     display: flex;
     justify-content: space-between;
@@ -154,47 +161,57 @@ a {
     background-color: yellow;
    display: flex;
    justify-content: space-around;
+   height: 330px;
   
 }
 
 .box {
-    height: 200px;
-    width: 280px;
+    height: 312px;
+    width: 378px;
     background-color: black;
     margin: 10px;
     position: relative;
 }
 
 .boo {
-    height: 100px;
-    width: 220px;
+    height: 312px;
+    width: 378px;
 background-color: aliceblue;
-left: 30px;
+display: flex;
+align-items: center;
 position: absolute;
-top: 20px;
+
+}
+
+#beluga {
+    height: 170px;
+    width: 378px;
 }
 
 .bxx {
     position: absolute;
-    width: 220px;
-    height: 50px;
-    bottom: 10px;
-    left: 30px;
+    width: 378px;
+    height: 90px;
+    left: 0;
+    bottom: 0;
     background-color: blue;
-    display: flex;
-    align-items: center;
+   display: flex;
+    
 }
 .bb {
     background-color: azure;
     margin: 3px;
-    height: 30px;
-    left: 10px;
+    height: 40px;
+    width: 40px;
+   border-radius: 40px;
 }
 .xx {
     background-color: aqua;
     margin: 3px;
-    height: 30px;
-    width: 190px;
+    height: 80px;
+    width: 325px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .you {
@@ -203,4 +220,27 @@ top: 20px;
 }
 .flex {
   display: flex;
+}
+
+#out {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+video {
+    height: 322px;
+    width: 378px;
+}
+
+.fo {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin: 3px;
+}
+
+.nt {
+    font-size: 14px;
+    margin: 3px;
+    font-family: "Roboto", sans-serif;
+    color: #606060;
 }
